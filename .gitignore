@@ -1,0 +1,6 @@
+# Directories
+build/
+builddir/
+testdir/
+.cache/
+
