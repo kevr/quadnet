@@ -18,6 +18,13 @@ random_test = executable(
 )
 test('random test', random_test)
 
+main_test = executable(
+  'main.test',
+  'main.test.cpp',
+  dependencies : test_deps
+)
+test('main test', main_test)
+
 # project executable
 exe = executable(
   'quadnet',
