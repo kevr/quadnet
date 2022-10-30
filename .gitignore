@@ -3,4 +3,5 @@ build/
 builddir/
 testdir/
 .cache/
-
+subprojects/googletest-release-*/
+subprojects/packagecache/
